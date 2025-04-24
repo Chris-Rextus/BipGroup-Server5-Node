@@ -1,0 +1,30 @@
+{
+  "name": "bipgroup-server5-node",
+  "version": "1.0.0",
+  "description": "Servidor node para realizar a comunicação com o server1 do projeto BipGroup",
+  "main": "index.js",
+  "scripts": {
+  "start": "node src/app.js",
+  "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chris-Rextus/BipGroup-Server5-Node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chris-Rextus/BipGroup-Server5-Node/issues"
+  },
+  "homepage": "https://github.com/Chris-Rextus/BipGroup-Server5-Node#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
